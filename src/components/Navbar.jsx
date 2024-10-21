@@ -31,10 +31,11 @@ const Navbar = () => {
               className="px-6 h-8"
               alt="Flowbite Logo"
               style={{
-                animation: 'rotateY 5s linear infinite',
+                animation: 'rotateY 5s linear infinite, gradient 5s linear infinite',
                 transformStyle: 'preserve-3d',
-                transform: 'scale(3.5)',
-                backfaceVisibility: 'hidden'
+                transform: 'scale(4)', // Decreased scale
+                backfaceVisibility: 'hidden',
+                width: '160%' // Increased width by 60%
               }}
             />
             <img
@@ -42,13 +43,14 @@ const Navbar = () => {
               className="px-6 h-8"
               alt="Flowbite Logo"
               style={{
-                animation: 'rotateYReverse 5s linear infinite',
+                animation: 'rotateYReverse 5s linear infinite, gradient 5s linear infinite',
                 transformStyle: 'preserve-3d',
-                transform: 'scale(3.5) rotateY(180deg)',
+                transform: 'scale(4) rotateY(180deg)', // Decreased scale
                 position: 'absolute',
                 top: 0,
                 left: 0,
-                backfaceVisibility: 'hidden'
+                backfaceVisibility: 'hidden',
+                width: '160%' // Increased width by 60%
               }}
             />
           </div>
@@ -59,14 +61,22 @@ const Navbar = () => {
               height: fit-content;
             }
             @keyframes rotateY {
-              0% { transform: scale(3.5) rotateY(0deg); }
-              50% { transform: scale(3.5) rotateY(90deg); }
-              100% { transform: scale(3.5) rotateY(180deg); }
+              0% { transform: scale(4) rotateY(0deg); }
+              50% { transform: scale(4) rotateY(90deg); }
+              100% { transform: scale(4) rotateY(180deg); }
             }
             @keyframes rotateYReverse {
-              0% { transform: scale(3.5) rotateY(180deg); }
-              50% { transform: scale(3.5) rotateY(270deg); }
-              100% { transform: scale(3.5) rotateY(360deg); }
+              0% { transform: scale(4) rotateY(180deg); }
+              50% { transform: scale(4) rotateY(270deg); }
+              100% { transform: scale(4) rotateY(360deg); }
+            }
+            @keyframes gradient {
+              0% {
+                filter: hue-rotate(0deg);
+              }
+              100% {
+                filter: hue-rotate(360deg);
+              }
             }
           `}</style>
         </a>
