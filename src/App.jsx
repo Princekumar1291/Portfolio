@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className='main w-full'>
       <Navbar />
-      <div className="w-full h-screen overflow-hidden relative">
+      <div className="w-full h-[80vh] sm:h-screen overflow-hidden relative">
         <div className="absolute h-full mt-[77px] mx-8 z-50 w-[90%]">
           <Home />
         </div>
