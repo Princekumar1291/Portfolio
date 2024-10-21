@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white dark:bg-gray-900 fixed w-full z-[100] top-0 start-0 border-b border-gray-200 dark:border-gray-600" style={{ opacity: 0.9 }}>
+    <nav className="bg-gray-900 fixed w-full z-[100] top-0 start-0 border-b border-gray-600" style={{ opacity: 0.9 }}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <div className="logo-container" style={{ perspective: '1000px' }}>
@@ -33,9 +33,9 @@ const Navbar = () => {
               style={{
                 animation: 'rotateY 5s linear infinite, gradient 5s linear infinite',
                 transformStyle: 'preserve-3d',
-                transform: 'scale(4)', // Decreased scale
+                transform: 'scale(4)',
                 backfaceVisibility: 'hidden',
-                width: '160%' // Increased width by 60%
+                width: '160%'
               }}
             />
             <img
@@ -45,12 +45,12 @@ const Navbar = () => {
               style={{
                 animation: 'rotateYReverse 5s linear infinite, gradient 5s linear infinite',
                 transformStyle: 'preserve-3d',
-                transform: 'scale(4) rotateY(180deg)', // Decreased scale
+                transform: 'scale(4) rotateY(180deg)',
                 position: 'absolute',
                 top: 0,
                 left: 0,
                 backfaceVisibility: 'hidden',
-                width: '160%' // Increased width by 60%
+                width: '160%'
               }}
             />
           </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
           `}</style>
           <button
             onClick={toggleNavbar}
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600"
             aria-controls="navbar-sticky"
             aria-expanded={isOpen ? 'true' : 'false'}
           >
@@ -129,11 +129,11 @@ const Navbar = () => {
           </button>
         </div>
         <div ref={navRef} className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? '' : 'hidden'}`} id="navbar-sticky">
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-700 rounded-lg bg-gray-800 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-gray-900">
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-500 md:p-0"
                 aria-current="page"
               >
                 Projects
@@ -142,7 +142,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-3 text-gray-300 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500 md:p-0"
               >
                 About
               </a>
@@ -150,7 +150,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-3 text-gray-300 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500 md:p-0"
               >
                 Contact
               </a>
@@ -158,7 +158,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-3 text-gray-300 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500 md:p-0"
               >
                 Services
               </a>
