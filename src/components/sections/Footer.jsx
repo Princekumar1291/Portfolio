@@ -91,6 +91,8 @@ const Footer = () => {
           {experiences.length > 0 && <NavLink href="#Experience">Experience</NavLink>}
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Contact">Contact</NavLink>
+          <NavLink href="#Services">Services</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
