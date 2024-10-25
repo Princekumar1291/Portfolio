@@ -34,7 +34,47 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
+const GithubLink = styled.img`
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  animation: bounce 2s infinite;
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+  &:hover {
+    animation: rotate 0.7s ease-in-out;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+`;
+
 function App() {
+  const handleGithubClick = () => {
+    window.open('https://www.linkedin.com/in/prince-kumar1291/', '_blank');
+  };
+
   return (
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
@@ -54,6 +94,11 @@ function App() {
             </Wrapper>
             <Footer />
           </div>
+          <GithubLink 
+            src="https://i.postimg.cc/76dJXjC9/linkdin-Logo.webp" 
+            alt="GitHub" 
+            onClick={handleGithubClick}
+          />
         </Body>
       </BrowserRouter>
     </ThemeProvider>
