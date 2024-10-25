@@ -43,6 +43,7 @@ const GithubLink = styled.img`
   cursor: pointer;
   border-radius: 50%;
   animation: bounce 2s infinite;
+  z-index: 100;
 
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
