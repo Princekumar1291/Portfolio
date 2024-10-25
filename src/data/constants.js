@@ -10,7 +10,7 @@ export const Bio = {
   github: "https://github.com/Princekumar1291",
   resume:
     "https://drive.google.com/file/d/1GLXA93qLzExGVIh-QKW5jZFwMeqRpCbN/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/prince-kumar1291/details/skills/",
+  linkedin: "https://www.linkedin.com/in/prince-kumar1291",
   twitter: "https://x.com/PrinceK12206676",
   insta: "https://www.instagram.com/prince._.maurya/",
   facebook: "",
