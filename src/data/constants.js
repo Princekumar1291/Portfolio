@@ -399,26 +399,28 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 11,
-  //   title: "DecisionHub",
-  //   date: "Jan 2024 - Dec 2023",
-  //   description:
-  //     "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-  //   image:
-  //     "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
-  //   tags: [
-  //     "React Js",
-  //     "PostgressSQL",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "React Flow",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/DecisionHub",
-  //   webapp: "https://decisionhub.netlify.app/",
-  // },
+  {
+    id: 11,
+    title: "CodeBoost - eLearning Platform",
+    date: "Jan 2024 - Mar 2024",
+    description:
+      "CodeBoost is a modern eLearning platform designed to help students boost their coding skills through interactive tutorials, quizzes, and hands-on coding challenges. The platform supports user authentication, tracks learning progress, and provides a smooth UI/UX experience. Admins can add or manage course content, while learners can explore courses in various programming languages and frameworks.",
+    image:
+      "https://raw.githubusercontent.com/Princekumar1291/CodeBoost/main/public/preview.jpg",
+    tags: [
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT Auth",
+      "MERN Stack",
+    ],
+    category: "web app",
+    github: "https://github.com/Princekumar1291/CodeBoost",
+    webapp: "https://code-boost-iota.vercel.app/",
+  }
+  
   // {
   //   id: 9,
   //   title: "Trackify",
