@@ -140,7 +140,7 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
-      <div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <Button href={project.github} target="_blank">
           View Code
         </Button>
