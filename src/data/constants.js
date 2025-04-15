@@ -406,7 +406,7 @@ export const projects = [
     description:
       "CodeBoost is a modern eLearning platform designed to help students boost their coding skills through interactive tutorials, quizzes, and hands-on coding challenges. The platform supports user authentication, tracks learning progress, and provides a smooth UI/UX experience. Admins can add or manage course content, while learners can explore courses in various programming languages and frameworks.",
     image:
-      "https://raw.githubusercontent.com/Princekumar1291/CodeBoost/main/public/preview.jpg",
+      "https://infonative.net/uploads/content_images/cover_258VpUT5oEolJmP.jpg",
     tags: [
       "React Js",
       "Node Js",
