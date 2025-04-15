@@ -1,5 +1,35 @@
 import React from "react";
 import styled from "styled-components";
+const Buttons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 0 2px;
+  gap: 10px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 6px;
+  }
+`;
+
+const StyledButton = styled.a`
+  flex: 1;
+  background-color: ${({ theme }) => theme.primary + "20"};
+  color: ${({ theme }) => theme.primary};
+  border: 2px solid ${({ theme }) => theme.primary};
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.white};
+  }
+`;
 
 const Card = styled.div`
   width: 330px;
@@ -110,14 +140,23 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
-      <div>
+      {/* <div>
         <Button href={project.github} target="_blank">
           View Code
         </Button>
         <Button href={project.webapp} target="_blank">
           Live Project
         </Button>
-      </div>
+      </div> */}
+      <Buttons>
+        <StyledButton href={project.github} target="_blank">
+          View Code
+        </StyledButton>
+        <StyledButton href={project.webapp} target="_blank">
+          Live Project
+        </StyledButton>
+      </Buttons>
+
 
     </Card>
   );
