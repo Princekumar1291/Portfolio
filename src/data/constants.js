@@ -9,7 +9,7 @@ export const Bio = {
     "I create, adapt, and grow. With a strong drive to learn and a focus on quality, I turn ideas into functional, real-world solutions.",
   github: "https://github.com/Princekumar1291",
   resume:
-    "https://drive.google.com/file/d/1GLXA93qLzExGVIh-QKW5jZFwMeqRpCbN/view?usp=sharing",
+    "https://drive.google.com/file/d/1aP5Rmc9eLSS_wuv2tj_z37fZor_Lsk8a/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/prince-kumar1291",
   twitter: "https://x.com/PrinceK12206676",
   insta: "https://www.instagram.com/prince._.maurya/",
