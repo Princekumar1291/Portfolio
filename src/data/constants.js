@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I create, adapt, and grow. With a strong drive to learn and a focus on quality, I turn ideas into real, functional solutions—one project at a time.",
+    "I create, adapt, and grow. With a strong drive to learn and a focus on quality, I turn ideas into functional, real-world solutions.",
   github: "https://github.com/Princekumar1291",
   resume:
     "https://drive.google.com/file/d/1GLXA93qLzExGVIh-QKW5jZFwMeqRpCbN/view?usp=sharing",
