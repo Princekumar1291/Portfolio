@@ -77,7 +77,8 @@ const ButtonContainer = styled.div`
 
 const GithubButton = styled.a`
   border: 1px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
+  // color: ${({ theme }) => theme.primary};
+  color:white;
   justify-content: center;
   display: flex;
   align-items: center;
