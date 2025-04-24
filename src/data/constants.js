@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I create, adapt, and grow. With a strong drive to learn and a focus on quality, I turn ideas into real, functional solutions—one project at a time.",
   github: "https://github.com/Princekumar1291",
   resume:
     "https://drive.google.com/file/d/1GLXA93qLzExGVIh-QKW5jZFwMeqRpCbN/view?usp=sharing",
